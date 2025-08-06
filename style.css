@@ -22,4 +22,15 @@ p {
 
 #Rabbit{
     background-color: #61FF8B; 
+    position: relative;
+    animation-name: hop;
+    animation-duration: 3s;
+}
+
+@keyframes hop {
+     0%{left: 50px;}
+    25%{top: -200px; left: 50px;}
+    50%{top: 0px; left: 25px;}
+    75%{top: -120px; left: 15px}
+   100%{top:0px; left:0px;}
 }

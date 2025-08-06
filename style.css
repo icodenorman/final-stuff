@@ -1,0 +1,25 @@
+/*
+9F6800 - Golden Brown
+FFFFFF - White
+000000 - Black
+61FF8B - Spring Green
+OOC3FF - Deep Sky Blue
+*/
+
+h1 {
+    text-align: center;
+}
+
+
+p {
+    font-family: "Playwrite HU";
+    color: #00C3FF;
+}
+
+#Dog{
+    background-color: #9F6800; 
+}
+
+#Rabbit{
+    background-color: #61FF8B; 
+}

@@ -1,6 +1,5 @@
+
 export const WORDS = [
-    "fruit",
-    "truck",
-    "roads"
-]
+    "apple", "baker", "beach", "bread", "candy", "chair", "cloud", "crane", "dance", "eagle", "earth", "fairy", "flame", "grape", "green", "happy", "horse", "house", "jelly", "juice", "lemon", "light", "magic", "melon", "music", "ocean", "panda", "peach", "piano", "plant", "puppy", "queen", "quiet", "rainy", "river", "robot", "salad", "sheep", "shine", "smile", "snake", "spoon", "stars", "story", "sugar", "sunny", "table", "tiger", "toast", "train", "tulip", "uncle", "vivid", "water", "whale", "wheat", "wings", "zebra", "angel", "bunny", "cabin", "candy", "cider", "clown", "comic", "couch", "crown", "daisy", "dolly", "donut", "drama", "dream", "fable", "fairy", "fancy", "feast", "frost", "giant", "globe", "grace", "honey", "jolly", "kitty", "lemon", "lucky", "mango", "maple", "merry", "mirth", "moose", "mossy", "noble", "olive", "penny", "petal", "piper", "plush", "polar", "puppy", "rainy", "raven", "rider", "rural", "sandy", "scout", "shady", "shiny", "silly", "skate", "skies", "sleep", "slope", "smile", "snack", "snowy", "spark", "spice", "spoon", "spray", "sugar", "sunny", "sweet", "tasty", "teddy", "toast", "tulip", "twist", "vivid", "witty", "wooly", "youth", "zesty"
+];
 

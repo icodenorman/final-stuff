@@ -23,6 +23,10 @@ h2 {
   font-family: "Playwrite HU";
 }
 
+button {
+  text-decoration: none;
+  color: plum
+}
 .p-div {
   max-width: 700px;
   margin: 0 auto 36px auto;

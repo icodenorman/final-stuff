@@ -45,11 +45,9 @@ document.addEventListener("keyup", (e) => {
 
     let found = pressedKey.match(/[a-z]/gi)
     
-    if (!found || found.length < 1){
-        return
-    } else {
-        insertLetter(pressedKey)
-    }
+if (pressedKey.length === 1 && pressedKey.match(/[a-z]/i)) {
+    insertLetter(pressedKey)
+}
 })
 
 function insertLetter(pressedKey) {
@@ -115,7 +113,7 @@ function checkGuess() {
         let delay = 250 * i
         setTimeout(() => {
             box.style.backgroundColor = letterColor
-            // shadeKeyboard(letter, letterColor)
+            shadeKeyBoard(letter, letterColor)
         }, delay)
     }
 
@@ -133,4 +131,22 @@ function checkGuess() {
         }
     }
 
+}
+
+function shadeKeyBoard(letter, color) {
+    for (const elem of document.getElementsByClassName("keyboard-button")) {
+        if (elem.textContent === letter) {
+            let oldColor = elem.style.backgroundColor
+            if (oldColor === 'green') {
+                return
+            } 
+
+            if (oldColor === 'yellow' && color !== 'green') {
+                return
+            }
+
+            elem.style.backgroundColor = color
+            break
+        }
+    }
 }

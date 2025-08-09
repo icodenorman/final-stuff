@@ -1,3 +1,89 @@
+body {
+  background: linear-gradient(120deg, #f0f4f8 0%, #e6eaf3 100%);
+  font-family: 'STIX Two Text', serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Black Ops One', 'Playwrite HU', sans-serif;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 12px;
+  color: #2d3a4a;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 8px #e0e0e0;
+}
+
+p {
+  max-width: 700px;
+  margin: 0 auto 36px auto;
+  font-size: 1.15rem;
+  color: #3a3a3a;
+  line-height: 1.7;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 18px 28px;
+}
+
+.animal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 36px;
+  margin-top: 32px;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+}
+
+.animal {
+  background: #f8f8fa;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(44, 62, 80, 0.10);
+  padding: 20px 18px 18px 18px;
+  text-align: center;
+  width: 320px;
+  transition: transform 0.18s, box-shadow 0.18s;
+  border: 1.5px solid #e0e6ef;
+}
+
+.animal:hover {
+  transform: translateY(-7px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.16);
+  border-color: #b6c6e0;
+}
+
+.animal iframe {
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+}
+
+.animal audio {
+  margin-top: 8px;
+  width: 90%;
+}
+/* Flexbox container for animal divs */
+.animal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.animal {
+  background: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 16px;
+  text-align: center;
+  width: 320px;
+}
 /*
 9F6800 - Golden Brown
 FFFFFF - White
